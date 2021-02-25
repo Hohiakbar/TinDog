@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+/** {
+    outline: 1px solid red !important;
+ }*/
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#title{
+    background-color: #f14668;
+}
+
+h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 3.5rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+.img-title{
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+#features{
+    background-color: #ffffff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+
+.row .col-lg-4{
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+.feature-div i{
+    color: #ff9292;
+    margin: 5% auto;
+}
+
+.feature-div i:hover{
+    color: #f14668;
+}
+
+#testimonials{
+    color: #ffffff;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff9292;
+}
+h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#testimonials img{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#press{
+    margin-top: 0;
+    background-color: #ff9292;
+    text-align: center;
+}
+
+#press img{
+    width: 10%;
+    margin: 20px 30px 50px;
+}
+
+
+#pricing{
+    text-align: center;
+}
+#pricing .row{
+    padding: 7% 15%;
+}
+.card{
+    padding: 0;
+    margin: auto 30px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 980px) {
+    .image-title{
+        transform: rotate(0deg);
+        position: relative;
+        right: 0;
+    }
+}
