@@ -84,6 +84,7 @@ h2{
     font-family: 'Akaya Telivigala', cursive;
     font-size: 3rem;
     font-weight: bold;
+    margin: 5% auto;
 }
 
 #testimonials img{
@@ -108,7 +109,8 @@ h2{
     text-align: center;
 }
 #pricing .row{
-    padding: 7% 15%;
+    margin: 10px;
+    padding: 25px;
 }
 .card{
     padding: 0;
@@ -117,8 +119,29 @@ h2{
 
 }
 
+#cta{
+    background-color: #f14668;
+    text-align: center;
+    padding: 3% 15%;
+}
+
+#cta h3{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 2%;
+}
+
 @media only screen and (max-width: 980px) {
-    .image-title{
+
+    #title{
+        text-align: center;
+    }
+    .img-title{
+        width: 50%;
         transform: rotate(0deg);
         position: relative;
         right: 0;
